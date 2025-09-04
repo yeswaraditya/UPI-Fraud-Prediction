@@ -18,6 +18,7 @@ project-root/
 │── README.md                      # Documentation
 ```
 
+
 ## Files and Workflow
 
 ### 1. Data Preprocessing (`02_data_preprocessing.ipynb`)
@@ -80,4 +81,5 @@ jupyter notebook
 2. Ensure preprocessed data is saved before training models.
 3. Run `04_model_training.ipynb` to train and save models.
 4. Evaluate models using `05_model_evaluation.ipynb` and select the best-performing one.
+
 5. Use `06_predictions.ipynb` to predict fraud on new transactions.
